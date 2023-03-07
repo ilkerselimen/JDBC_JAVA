@@ -59,8 +59,7 @@ public class ExecuteQuery01 {
             System.out.println(resultSet4.getString(1)+"--"+resultSet4.getString(2));
         }
 
-
-
-
+        st.close();
+        con.close();
     }
 }
