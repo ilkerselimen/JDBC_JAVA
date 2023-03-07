@@ -28,5 +28,11 @@ public class ExecuteUpdate01 {
 //        int deleted=st.executeUpdate(query3);
 //        System.out.println("Silinen kayit sayisi: "+deleted);
 
+        //ÖRNEK4:developers tablosundan prog_lang Css olanları siliniz.
+        String query4="DELETE FROM developers WHERE prog_lang ILIKE 'css'";//buyuk kucuk harf duyarsız
+//        int deleted2=st.executeUpdate(query4);
+//        System.out.println("Silinen kayit sayisi:"+deleted2);
+        st.close();
+        con.close();
     }
 }
