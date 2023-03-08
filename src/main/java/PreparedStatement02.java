@@ -1,5 +1,11 @@
 import java.sql.*;
-
+/*
+CallableStatement:SQL de geriye data return eden methodlara fonksiyon(function)
+                         geriye data return etmeyenlere ise prosedür denir.
+                  Connection ın prepareCall methodu ile callablestatement oluşturularak
+                  Java uygulamamızda SQL fonksiyonları/prosedürleri çağırılabilir.
+CallableStatement, Statement i extend eder.
+ */
 public class PreparedStatement02 {
 
     public static void main(String[] args) throws SQLException {
